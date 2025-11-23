@@ -3,11 +3,13 @@
 
 **Role:** Founder & Product Lead | EdTech · Blockchain · Security  
 **Focus:** Cryptographic tooling · CLI agents · Seed recovery · Web3 integrations · Analysis
+
 ---
 
 ## 🧠 Overview
 
 Shamir_Cracker_Lab is a full-stack cryptographic toolkit designed for secure recovery, analysis, and visualization of secrets using Shamir’s Secret Sharing (RFC 2406). It includes CLI agents for brute-force reconstruction, monometric decoding, password recovery, and threshold analysis — optimized for blockchain-integrated environments.
+
 ---
 
 ## 🛠️ CLI Agents
@@ -22,6 +24,7 @@ Shamir_Cracker_Lab is a full-stack cryptographic toolkit designed for secure rec
 | `fullstack-deploy` | Deploys CLI tooling across chains      
 
 Each agent supports modular export formats (JSON, SVG, PDF) and integrates with GUI dashboards or investor-facing visualizations.
+
 ---
 
 ## 🔓 Password Recovery & CLI Services
@@ -72,6 +75,7 @@ Wallet-linked activity includes smart contract deployment, NFT issuance, DeFi st
 - **Wheel Learning Fortune** – Blockchain-based learning platform with BTC rewards and NFT certification  
 - **Codex CLI (2026)** – Integrated CLI agent for code generation and monometric analysis  
 - **Shamir Recovery GUI** – Visualization layer for CLI outputs, investor-ready dashboards
+
 ---
 
 ## 🧩 Visual Assets
