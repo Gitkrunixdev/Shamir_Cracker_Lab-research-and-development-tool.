@@ -1,5 +1,5 @@
 
-## 🔐 **Author:** Gitkrunixdev/devkrunix
+## 🔐 **Author:** AndrzejDobrucki/devkrunix
 
 **Role:** Founder & Product Lead | EdTech · Blockchain · Security  
 **Focus:** Cryptographic tooling · CLI agents · Seed recovery · Web3 integrations · Analysis
