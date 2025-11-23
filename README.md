@@ -1,11 +1,15 @@
-**Author:** Devkrunix
+
+## 🔐 **Author:** Devkrunix
+
 **Role:** Founder & Product Lead | EdTech · Blockchain · Security  
 **Focus:** Cryptographic tooling · CLI agents · Seed recovery · Web3 integrations · Analysis
 ---
+
 ## 🧠 Overview
 
 Shamir_Cracker_Lab is a full-stack cryptographic toolkit designed for secure recovery, analysis, and visualization of secrets using Shamir’s Secret Sharing (RFC 2406). It includes CLI agents for brute-force reconstruction, monometric decoding, password recovery, and threshold analysis — optimized for blockchain-integrated environments.
 ---
+
 ## 🛠️ CLI Agents
 
 | Agent Name         | Functionality                          |
@@ -19,6 +23,7 @@ Shamir_Cracker_Lab is a full-stack cryptographic toolkit designed for secure rec
 
 Each agent supports modular export formats (JSON, SVG, PDF) and integrates with GUI dashboards or investor-facing visualizations.
 ---
+
 ## 🔓 Password Recovery & CLI Services
 
 Shamir_Cracker_Lab includes advanced tooling for secure password recovery and brute-force reconstruction using Shamir’s Secret Sharing. These services are designed for developers, security researchers, and blockchain users managing sensitive credentials.
@@ -61,12 +66,14 @@ Wallet-linked activity includes smart contract deployment, NFT issuance, DeFi st
 | Blockchain   | Bitcoin, Ethereum, ICP, Near |
 | Security     | Shamir's Secret Sharing, JWT, OAuth |
 ---
+
 ## 📁 MVPs & Integrations
 
 - **Wheel Learning Fortune** – Blockchain-based learning platform with BTC rewards and NFT certification  
 - **Codex CLI (2026)** – Integrated CLI agent for code generation and monometric analysis  
 - **Shamir Recovery GUI** – Visualization layer for CLI outputs, investor-ready dashboards
 ---
+
 ## 🧩 Visual Assets
 
 - Modular icon sets for each recovery stage  
@@ -74,11 +81,10 @@ Wallet-linked activity includes smart contract deployment, NFT issuance, DeFi st
 - CLI splash screens with SL branding  
 - Animation-ready SVG layers for pitch decks
 ---
+
 ## 📬 Contact & Portfolio
 
 - 📧 Email:   shamircrackerlab@gmail.com
 - 🔗 LinkedIn: https://www.linkedin.com/in/devkrunix
 
----
-
-> Built by Devkrunix– bridging cryptography, education, and blockchain recovery tooling.
+> Built by Devkrunix – bridging cryptography, education, and blockchain recovery tooling.
