@@ -64,9 +64,9 @@ Wallet-linked activity includes smart contract deployment, NFT issuance, DeFi st
 
 | Category     | Technologies |
 |--------------|--------------|
-| Languages    | TypeScript, Python, Solidity, Rust |
-| Frameworks   | React, NextJS, NodeJS, Express |
-| Blockchain   | Bitcoin, Ethereum, ICP, Near |
+| Languages    | TypeScript, Javascript, Python, Solidity |
+| Frameworks   | React, NextJS, NodeJS, Angular |
+| Blockchain   | Lightning BTC, Ethereum, ICP, Near |
 | Security     | Shamir's Secret Sharing, JWT, OAuth |
 ---
 
