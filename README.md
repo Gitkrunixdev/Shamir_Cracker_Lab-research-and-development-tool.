@@ -1,8 +1,6 @@
-# 🔐 Shamir_Cracker_Lab – Full-stack CLI Agents for Web3 Recovery & Analysis
-
-**Author:** Andrzej Dobrucki  
+**Author:** Devkrunix
 **Role:** Founder & Product Lead | EdTech · Blockchain · Security  
-**Focus:** Cryptographic tooling · CLI agents · Seed recovery · Web3 integrations
+**Focus:** Cryptographic tooling · CLI agents · Seed recovery · Web3 integrations · Analysis
 ---
 ## 🧠 Overview
 
@@ -83,4 +81,4 @@ Wallet-linked activity includes smart contract deployment, NFT issuance, DeFi st
 
 ---
 
-> Built by Andrzej Dobrucki – bridging cryptography, education, and blockchain recovery tooling.
+> Built by Devkrunix– bridging cryptography, education, and blockchain recovery tooling.
