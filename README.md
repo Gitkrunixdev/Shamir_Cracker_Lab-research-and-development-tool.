@@ -1,5 +1,5 @@
 
-## 🔐 **Author:** Andrzej Dobrucki/devkrunix
+## 🔐 **Author:** devkrunix
 
 **Role:** Founder & Product Lead | EdTech · Blockchain · Security  
 **Focus:** Cryptographic tooling · CLI agents · Seed recovery · Web3 integrations · Analysis
@@ -91,4 +91,4 @@ Wallet-linked activity includes smart contract deployment, NFT issuance, DeFi st
 - 📧 Email:   shamircrackerlab@gmail.com
 - 🔗 LinkedIn: https://www.linkedin.com/in/devkrunix
 
-> Built by Devkrunix – bridging cryptography, education, and blockchain recovery tooling.
+> Built by devkrunix – bridging cryptography, education, and blockchain recovery tooling.
