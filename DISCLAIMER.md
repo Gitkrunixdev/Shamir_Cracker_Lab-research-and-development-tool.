@@ -1,93 +1,99 @@
 # ⚠️ Disclaimer
 
-## General Notice
+## 1. General Notice
 
-This repository provides **cryptographic command-line tooling** intended for **research, development, testing, and audit-oriented workflows**.
+This repository provides **cryptographic command‑line tooling** intended exclusively for **research, development, testing, and audit‑oriented use**.
 
 The software is provided **“as is”**, without warranty of any kind, express or implied.
 
 ---
 
-## No Service Relationship
-
-This project does **not** provide:
-- Custodial services
-- Managed recovery services
-- Legal, financial, or compliance advice
-- Operational guarantees of any kind
-
-Use of this software does **not** establish any service, consultancy, or fiduciary relationship.
-
----
-
-## No Warranty
+## 2. No Warranty
 
 To the maximum extent permitted by applicable law:
 
-- No warranties are given regarding correctness, completeness, or fitness for a particular purpose
-- No guarantee is made that recovery operations will succeed
-- No guarantee is made that outputs are accurate or suitable for production use
+- No warranties are made regarding correctness, completeness, reliability, or fitness for a particular purpose
+- No guarantee is provided that any recovery, reconstruction, or analysis will succeed
+- No guarantee is provided that outputs are accurate, complete, or suitable for production use
 
-All results must be independently verified.
+All results must be independently verified by the user.
 
 ---
 
-## Limitation of Liability
+## 3. Limitation of Liability
 
 In no event shall the authors, maintainers, or contributors be liable for:
-- Loss of data, assets, or credentials
-- Financial loss or business interruption
-- Security incidents or misuse
-- Direct, indirect, incidental, or consequential damages
 
-Use of this software is entirely at the user's own risk.
+- Loss of data, digital assets, credentials, or keys
+- Financial loss, business interruption, or reputational damage
+- Security incidents, misuse, or unauthorized access
+- Direct, indirect, incidental, special, or consequential damages
+
+Use of this software is entirely at the user’s own risk.
 
 ---
 
-## Cryptographic Risk
+## 4. No Service Relationship
+
+This project does **not** provide:
+
+- Custodial services
+- Managed recovery services
+- Consulting, advisory, or fiduciary services
+- Legal, financial, or regulatory advice
+
+Use of this software does **not** establish any service, consultancy, partnership, or fiduciary relationship.
+
+---
+
+## 5. Cryptographic Responsibility
 
 Cryptographic recovery and reconstruction inherently involve risk.
 
 This software:
+
 - Does not replace professional key management systems
 - Does not replace hardware security modules (HSMs)
 - Does not replace enterprise custody or recovery solutions
+- Does not guarantee cryptographic correctness in all scenarios
 
-Users are responsible for understanding the cryptographic implications of their actions.
+Users are solely responsible for understanding the cryptographic implications of their actions.
 
 ---
 
-## Legal & Regulatory Compliance
+## 6. Legal and Regulatory Responsibility
 
 Users are solely responsible for:
-- Compliance with applicable laws and regulations
-- Lawful and ethical use of cryptographic tooling
-- Ensuring authorization to perform recovery operations
 
-The authors make no representations regarding regulatory compliance.
+- Compliance with applicable laws and regulations
+- Ensuring lawful authorization to perform recovery operations
+- Ethical and legitimate use of cryptographic tooling
+
+The authors make no representations regarding legal or regulatory compliance.
 
 ---
 
-## Forks & Derivative Works
+## 7. Forks and Derivative Works
 
 Forks and derivative works are the sole responsibility of their maintainers.
 
 No responsibility is assumed for:
-- Modified versions
-- Third-party integrations
-- Downstream distributions
+
+- Modified versions of the software
+- Third‑party integrations
+- Downstream distributions or deployments
 
 ---
 
-## No Endorsement
+## 8. No Endorsement
 
-References to blockchain platforms, protocols, or technologies do not constitute endorsement.
+References to blockchain platforms, protocols, or technologies do not constitute endorsement or certification.
 
 ---
 
-## Attribution & Continuity
+## 9. Attribution and Continuity
 
-Original project author:
+Original cryptographic research and architectural concepts:
 - **@shamircrackerlab**
 - https://x.com/shamircrackerlab
 
@@ -95,7 +101,7 @@ Gitkrunixdev operates as a **development and experimentation layer**.
 
 ---
 
-## Acceptance
+## 10. Acceptance
 
-By using, copying, or modifying this software, you acknowledge that you have read, understood, and accepted this disclaimer.
+By using, copying, modifying, or distributing this software, you acknowledge that you have read, understood, and accepted this disclaimer.
 
