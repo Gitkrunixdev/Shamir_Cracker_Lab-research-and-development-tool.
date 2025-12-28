@@ -1,123 +1,100 @@
 # 🔐 Security Policy
 
-## 1. Scope
+## Scope
 
-This security policy applies to the **Gitkrunixdev** repository and the cryptographic CLI tooling contained within it.
+This repository provides **cryptographic CLI tooling** for research, development, and audit-oriented workflows involving Shamir-based secret recovery and analysis.
 
-The project provides tools intended for:
-- cryptographic analysis,
-- Shamir‑based secret reconstruction,
-- research, testing, and audit‑oriented workflows.
-
-This policy **does not apply** to:
-- forks or derivative repositories,
-- third‑party integrations,
-- user deployment environments,
-- production systems operated by external parties.
+The project **does not provide custodial services**, hosted infrastructure, or managed recovery operations.
 
 ---
 
-## 2. Supported Branches
+## Supported Versions
 
-| Branch | Security Support |
-|------|------------------|
-| `main` | ✅ Supported |
-| Development branches | ⚠️ Best‑effort |
+This repository is under active development.
+
+| Version / Branch | Security Support |
+|------------------|------------------|
+| `main`           | ✅ Supported |
+| Development forks | ⚠️ Best-effort |
 | Experimental modules | ❌ Not supported |
 
-Only the `main` branch is covered by coordinated security disclosure and remediation.
+Only the `main` branch is considered for coordinated security disclosures.
 
 ---
 
-## 3. Security Model
+## Security Model
 
-Gitkrunixdev is designed around the following security assumptions:
+- All tools operate **locally** and **offline by design**
+- No secrets, keys, or credentials are transmitted externally
+- No telemetry, analytics, or remote logging is implemented
+- Users are responsible for validating outputs independently
 
-- **Offline‑first execution**
-- **No network communication**
-- **No telemetry or analytics**
-- **No persistent secret storage**
-- **Deterministic execution**
-- **Explicit trust boundaries**
-- **No background services or daemons**
-
-The repository provides **tools, not services**.  
-Operational security remains the responsibility of the user.
+This project assumes **expert-level usage** and does not attempt to abstract cryptographic risk.
 
 ---
 
-## 4. Reporting Security Vulnerabilities
+## Reporting a Vulnerability
 
-Security vulnerabilities must be reported **privately**.
+If you discover a security vulnerability, please report it **privately**.
 
 ### Preferred Contact
 - **X (Twitter):** https://x.com/shamircrackerlab
 
-Reports should include:
-- a clear description of the vulnerability,
-- reproduction steps (if applicable),
-- affected modules or CLI agents,
-- an assessment of potential impact.
+Please include:
+- A clear description of the issue
+- Reproduction steps (if applicable)
+- Affected modules or CLI agents
+- Potential impact assessment
 
-❗ **Do not report vulnerabilities via public GitHub Issues or Pull Requests.**
-
----
-
-## 5. Disclosure Policy
-
-- Valid reports will be reviewed within a reasonable timeframe
-- Fixes will be coordinated prior to public disclosure
-- Reporters may be credited unless anonymity is requested
-- No bug bounty program is offered
-
-Uncoordinated public disclosure may result in the report being rejected.
+Do **not** open public GitHub issues for security vulnerabilities.
 
 ---
 
-## 6. Limitations of Responsibility
+## Disclosure Policy
 
-This project:
-- does not guarantee successful recovery outcomes,
-- does not provide regulatory or compliance assurances,
-- does not assume liability for data loss, asset loss, or misuse,
-- does not replace HSMs, KMSs, or enterprise custody solutions.
+- Valid reports will be acknowledged within a reasonable timeframe
+- Fixes will be coordinated before public disclosure
+- Credit will be given to reporters unless anonymity is requested
 
-The software is provided **“as is”**, without warranty.
+There is **no bug bounty program** associated with this repository.
 
 ---
 
-## 7. User Responsibilities
+## Limitations & Responsibility
 
-Users are solely responsible for:
-- lawful and ethical use of the tooling,
-- authorization to perform recovery operations,
-- independent verification of outputs,
-- securing their execution environment.
+This software is provided **“as is”**, without warranty of any kind.
 
----
+- No guarantee of successful recovery
+- No liability for data loss or misuse
+- No legal or compliance assurances
 
-## 8. Forks and Derivative Works
-
-Security responsibility for forks and derivative works lies entirely with their maintainers.
-
-Gitkrunixdev assumes no responsibility for:
-- modified codebases,
-- downstream distributions,
-- third‑party integrations.
+Users are responsible for ensuring lawful and ethical use.
 
 ---
 
-## 9. Attribution and Continuity
+## Forks & Derivatives
 
-Original cryptographic architecture and research:
-- **@shamircrackerlab**
+Security responsibility for forks and derivative works lies with their respective maintainers.
+
+Only disclosures affecting the original architecture or shared codebase will be considered.
+
+---
+
+## Cryptographic Disclaimer
+
+This project implements cryptographic concepts for **analysis and recovery tooling**.
+
+It does **not** replace:
+- Professional key management systems
+- Hardware security modules (HSMs)
+- Custodial or enterprise-grade recovery services
+
+---
+
+## Contact Continuity
+
+Original project author and cryptographic research continuity:
 - https://x.com/shamircrackerlab
 
 Gitkrunixdev operates as a **development and experimentation layer**.
-
----
-
-## 10. Acceptance
-
-By using, copying, or modifying this software, you acknowledge that you have read, understood, and accepted this security policy.
 
