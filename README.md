@@ -88,7 +88,7 @@ Wallet-linked activity includes smart contract deployment, NFT issuance, DeFi st
 
 ## 📞 Contact & Professional Profiles
 
- 📧 Email:   shamircrackerlab@gmail.com
+-  📧 Email:   shamircrackerlab@gmail.com
 - GitHub: https://github.com/krunixbase
 - LinkedIn: https://www.linkedin.com/in/shamircrackerlab
 - Twitter/X: @shamircrackerlab
