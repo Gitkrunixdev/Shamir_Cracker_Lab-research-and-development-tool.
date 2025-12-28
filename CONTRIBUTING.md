@@ -1,116 +1,132 @@
-# 🤝 Contributing Guidelines
+# 🤝 Contribution Guidelines
 
 Thank you for your interest in contributing to **Gitkrunixdev**.
 
-This repository maintains **cryptographic CLI tooling** intended for expert‑level usage, audit workflows, and controlled development environments. Contributions are welcome, but **quality, clarity, and security discipline are mandatory**.
+This repository provides **cryptographic command‑line tooling** intended for expert‑level usage in research, development, and audit‑oriented environments. Contributions are welcome, but must adhere to strict standards of correctness, transparency, and security discipline.
 
 ---
 
-## Contribution Scope
+## 1. Scope of Acceptable Contributions
 
-We accept contributions that:
+Contributions are accepted if they:
 
-- Improve code quality, correctness, or performance
-- Extend CLI tooling in a **deterministic and auditable** manner
+- Improve correctness, reliability, or performance
+- Extend CLI tooling in a deterministic and auditable manner
 - Improve documentation, reproducibility, or compliance clarity
 - Fix verified bugs with clear reproduction steps
+- Enhance testability or auditability
 
-We do **not** accept:
-- Feature requests without technical justification
-- UI abstractions that obscure cryptographic behavior
-- Marketing content or promotional material
-- Changes that weaken security assumptions
+Contributions are **not accepted** if they:
 
----
-
-## Branch Policy
-
-- All contributions must target the `main` branch
-- Experimental work should be proposed before submission
-- Large changes require prior discussion
+- Introduce network communication or telemetry
+- Obscure cryptographic behavior through abstraction
+- Add custodial, managed, or service‑like functionality
+- Include marketing, promotional, or non‑technical content
+- Weaken security assumptions or trust boundaries
 
 ---
 
-## Code Standards
+## 2. Coding Standards
 
 All contributions must:
 
 - Be deterministic and reproducible
-- Avoid hidden state, telemetry, or external dependencies
+- Avoid hidden state or implicit configuration
 - Use explicit error handling
-- Preserve offline‑first operation
-- Avoid introducing network calls unless explicitly justified
+- Preserve offline‑first execution
+- Avoid dynamic code execution
+- Avoid unnecessary dependencies
 
 Cryptographic logic must be:
 - Transparent
 - Inspectable
-- Documented
+- Clearly documented
 
 ---
 
-## Documentation Requirements
+## 3. Security Expectations
 
-Any non‑trivial change must include:
+Contributors must:
+
+- Avoid introducing new attack surfaces
+- Respect existing security boundaries
+- Document any security‑relevant changes
+- Follow the disclosure process defined in `SECURITY.md`
+
+Security vulnerabilities **must not** be submitted via public issues or pull requests.
+
+---
+
+## 4. Documentation Requirements
+
+Any non‑trivial contribution must include:
+
 - Updated documentation
 - Clear explanation of intent
 - Notes on security implications (if applicable)
 
-Documentation should favor **clarity over verbosity**.
+Documentation should prioritize **clarity, precision, and auditability**.
 
 ---
 
-## Security Considerations
+## 5. Review Process
 
-- Do **not** submit security vulnerabilities via public issues
-- Follow the disclosure process defined in `SECURITY.md`
-- Contributions introducing cryptographic changes must include rationale
+All contributions are subject to review for:
 
----
-
-## Licensing
-
-By contributing, you agree that:
-- Your contribution is licensed under **GPL‑3.0**
-- You have the right to submit the code
-- You do not introduce incompatible licenses
-
----
-
-## Review Process
-
-All contributions are reviewed for:
 - Technical correctness
 - Security impact
 - Architectural consistency
 - Documentation quality
 
 Maintainers reserve the right to:
+
 - Request changes
 - Reject contributions without detailed explanation
 - Close inactive or low‑quality submissions
 
+Large or architectural changes should be discussed prior to submission.
+
 ---
 
-## Forks & Derivatives
+## 6. Branch Policy
 
-Forks are encouraged for experimentation.
+- Contributions must target the `main` branch
+- Experimental work should be proposed before submission
+- Forks are encouraged for experimentation
 
 Security responsibility for forks lies with their maintainers.
 
 ---
 
-## Contact & Continuity
+## 7. Licensing
+
+By contributing, you agree that:
+
+- Your contribution is licensed under **GPL‑3.0**
+- You have the legal right to submit the contribution
+- You do not introduce incompatible licenses
+
+All contributions become part of the GPL‑3.0 licensed codebase.
+
+---
+
+## 8. Attribution and Continuity
 
 Original project author and cryptographic research continuity:
+- **@shamircrackerlab**
 - https://x.com/shamircrackerlab
 
 Gitkrunixdev operates as a **development and experimentation layer**.
 
 ---
 
-## Final Note
+## 9. Final Note
 
-This project prioritizes **correctness, transparency, and responsibility** over velocity.
+This project prioritizes:
 
-If you are unsure whether a contribution fits the scope, open a discussion **before** submitting code.
+- Correctness over convenience
+- Transparency over abstraction
+- Responsibility over velocity
+
+If you are unsure whether a contribution fits the scope, initiate a discussion **before** submitting code.
 
