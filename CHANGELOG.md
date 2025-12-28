@@ -1,58 +1,89 @@
 # 📜 Changelog
 
-All notable changes to this project will be documented in this file.
+All notable changes to this project are documented in this file.
 
-This project follows a structured changelog format inspired by
+This changelog follows principles inspired by
 [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
-and adheres to semantic versioning principles where applicable.
+and adopts **Semantic Versioning (SemVer)** where applicable.
 
 ---
 
 ## [Unreleased]
 
-### Added
-- Experimental CLI modules for development and testing
-- Audit-oriented documentation structure
-- Institutional security policy
-
-### Changed
-- Repository positioning toward development and compliance workflows
+### Planned
+- Further hardening of CLI agents
+- Additional audit‑oriented documentation
+- Expanded test coverage for deterministic execution
+- Optional visualization and reporting enhancements
 
 ---
 
 ## [0.2.0] — Gitkrunixdev Fork Initialization
 
 ### Added
-- Full repository fork under the **Gitkrunixdev** namespace
-- New institutional `README.md`
-- `SECURITY.md` with coordinated disclosure policy
-- Development-focused project scope and disclaimers
+- Initialization of the **Gitkrunixdev** fork
+- Institutional‑grade documentation set:
+  - `README.md`
+  - `SECURITY.md`
+  - `ARCHITECTURE.md`
+  - `CONTRIBUTING.md`
+  - `DISCLAIMER.md`
+- Explicit security posture and non‑custodial disclaimers
+- Audit‑oriented architectural overview
 
 ### Changed
-- Replaced original README with Gitkrunixdev-branded documentation
-- Clarified non-custodial and non-service nature of the tooling
+- Repositioned repository as a **development and experimentation layer**
+- Clarified scope: tooling only, no services or guarantees
+- Standardized documentation language for compliance and audits
 
 ### Notes
-- This release establishes Gitkrunixdev as a **development and experimentation layer**
-- No functional cryptographic changes introduced at this stage
+- This release establishes Gitkrunixdev as a **controlled fork**
+- No cryptographic logic was modified at this stage
+- Functional behavior remains aligned with upstream
 
 ---
 
 ## [0.1.0] — Upstream Baseline
 
 ### Added
-- Initial CLI architecture for Shamir-based recovery
+- Initial Shamir‑based CLI architecture
 - Core agents:
   - `decode-monometric`
   - `threshold-analyze`
   - `seed-reconstruct`
   - `recover-password`
   - `wallet-unlock`
-- Modular export support (JSON, SVG, PDF)
+- Modular export formats (JSON, SVG, PDF)
 
 ### Notes
 - Original implementation authored by **@shamircrackerlab**
-- Repository served as a foundational cryptographic toolkit
+- Served as the foundational cryptographic toolkit
+
+---
+
+## Versioning Policy
+
+This project follows **Semantic Versioning**:
+
+- **MAJOR** version increments indicate breaking changes
+- **MINOR** version increments indicate backward‑compatible feature additions
+- **PATCH** version increments indicate backward‑compatible bug fixes
+
+Pre‑1.0 versions (`0.x.y`) indicate active development and experimentation.
+Breaking changes may occur without backward compatibility guarantees.
+
+---
+
+## Change Categories
+
+Future entries will use the following categories where applicable:
+
+- **Added** — new features or modules
+- **Changed** — modifications to existing behavior
+- **Deprecated** — features scheduled for removal
+- **Removed** — removed features or modules
+- **Fixed** — bug fixes
+- **Security** — security‑relevant changes
 
 ---
 
@@ -63,20 +94,12 @@ Original project:
 - Author: **@shamircrackerlab**
 - https://github.com/krunixbase/krunixbase
 
-Gitkrunixdev maintains full attribution and GPL-3.0 compliance.
-
----
-
-## Versioning Policy
-
-- `0.x` versions indicate active development
-- Breaking changes may occur without backward compatibility guarantees
-- Experimental modules are not covered by stability assurances
+Gitkrunixdev maintains full attribution and GPL‑3.0 compliance.
 
 ---
 
 ## Disclaimer
 
 This changelog documents **code and documentation changes only**.
-It does not imply security guarantees, recovery success, or operational readiness.
+It does not imply guarantees of stability, security, or recovery success.
 
